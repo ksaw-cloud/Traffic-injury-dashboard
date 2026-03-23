@@ -1,0 +1,31 @@
+# Traffic Injury Dashboard
+
+An interactive data visualization dashboard using Streamlit to explore traffic injuries across transportation modes, severity, and time.  
+
+## Dashboard
+paste link here
+
+#Features
+- Filters:
+	-Transportation mode
+	-Injury Severity
+	-Year range
+- Multiple Visualizations:
+	-Line chart (trend over time)
+	-Bar chart (yearly totals)
+	-Histogram (distribution of injuries)
+	-Scatter plot (injuries vs population rate)
+- Dynamic updates across all charts
+
+-Technologies used
+	-Python
+	-Streamlit
+	-Pandas
+	-Plotly
+	-NumPy
+-Project Structure
+	-app.py
+	-assignment3.ipynb
+	-Requirements.txt
+	-road_traffic.csv
+	-README.md
