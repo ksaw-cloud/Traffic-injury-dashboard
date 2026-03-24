@@ -5,6 +5,11 @@ An interactive data visualization dashboard using Streamlit to explore traffic i
 ## Dashboard
 https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 
+## How to Run Locally
+	bash:
+		pip install -r requirements.txt
+		streamlit run app.py
+
 #Features
 - Filters:
 	-Transportation mode
@@ -26,6 +31,6 @@ https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 -Project Structure
 	-app.py
 	-assignment3.ipynb
-	-Requirements.txt
-	-road_traffic.csv
+	-requirements.txt
+	-road_traffic_small.csv
 	-README.md
