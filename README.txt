@@ -3,7 +3,7 @@
 An interactive data visualization dashboard using Streamlit to explore traffic injuries across transportation modes, severity, and time.  
 
 ## Dashboard
-paste link here
+https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 
 #Features
 - Filters:
