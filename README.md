@@ -6,9 +6,9 @@ An interactive data visualization dashboard using Streamlit to explore traffic i
 https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 
 ## How to Run Locally
-	bash:
-		pip install -r requirements.txt
-		streamlit run app.py
+	```bash
+	pip install -r requirements.txt
+	streamlit run app.py
 
 #Features
 - Filters:
