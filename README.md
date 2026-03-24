@@ -13,7 +13,7 @@ https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 	pip install -r requirements.txt
 	streamlit run app.py
 
-#Features
+## Features
 - Interactive Filters:
 	-Transportation mode
 	-Injury Severity
@@ -25,13 +25,13 @@ https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 	-Scatter plot (injuries vs population rate)
 - Dynamic updates across all charts
 
--Technologies used
+## Technologies used
 	-Python
 	-Streamlit
 	-Pandas
 	-Plotly
 	-NumPy
--Project Structure
+## Project Structure
 	-app.py
 	-assignment3.ipynb
 	-requirements.txt
