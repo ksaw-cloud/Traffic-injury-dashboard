@@ -2,6 +2,9 @@
 
 An interactive data visualization dashboard using Streamlit to explore traffic injuries across transportation modes, severity, and time.  
 
+## Dataset
+https://catalog.data.gov/dataset/road-traffic-injuries-0935b
+
 ## Dashboard
 https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 
