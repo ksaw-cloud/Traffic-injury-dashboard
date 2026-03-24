@@ -72,7 +72,7 @@ col1, col2 = st.columns(2)
 
 #line: trend over time
 with col1:
-    df_line = filtered.groupby('reportyear')['injuries'].mean().reset_index()
+    df_line = filtered.groupby('reportyear')['injuries'].sum().reset_index()
     df_line = df_line.sort_values('reportyear')
     fig_line = px.line(df_line, x = 'reportyear', y='injuries', title= f'Injuries Over Time ({mode}, {severity})')
     fig_line.update_layout(xaxis_title ='Year', yaxis_title='Number of Injuries')
