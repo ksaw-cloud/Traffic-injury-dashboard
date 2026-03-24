@@ -14,11 +14,11 @@ https://traffic-injury-dashboard-ikonxrsygk3bksep24xavq.streamlit.app/
 	streamlit run app.py
 
 ## Features
-### Interactive Filters:
+### Interactive Filters
 	-Transportation mode
 	-Injury Severity
 	-Year range
-### Visualizations:
+### Visualizations
 	-Line chart (trend over time)
 	-Bar chart (yearly totals)
 	-Histogram (distribution of injuries)
