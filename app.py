@@ -34,7 +34,7 @@ df_clean = load_data()
 modes = sorted(df_clean['mode'].dropna().unique())
 mode = st.selectbox('Transport Mode', modes, index= 0)
 
-severity = st.selectbox('Severity', df_clean['severity'].dropna().unique())
+severity = st.selectbox('Severity', sorted(df_clean['severity'].dropna().unique()))
 
 year_min = int(df_clean['reportyear'].min())
 year_max = int(df_clean['reportyear'].max())
