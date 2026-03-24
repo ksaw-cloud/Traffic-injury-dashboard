@@ -56,7 +56,13 @@ if filtered.empty:
     st.warning('No data available')
     st.stop()
 
-st.metric('Total Injuries', int(filtered['injuries'].sum()))
+#metrics
+colA, colB = st.columns(2)
+
+with colA:
+    st.metric('Total Injuries', int(filtered['injuries'].sum()))
+with colB:
+    st.metric('Average Injuries', round(filtered['injuries'].mean(), 2))
 
 #charts
 st.subheader('Trend Analysis')
